@@ -1,5 +1,8 @@
+"use client";
 import "./globals.css";
 import React from "react";
+import Snowfall from 'react-snowfall'
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -10,6 +13,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
+        <><Snowfall /></>
         {children}
       </body>
     </html>
