@@ -1,3 +1,6 @@
+## Note to myself
+Due to some depednency issues, I ran ```npm i react-snowfall --force``` on production and my local environment, which force installed react-snowfall@latest, which was made for react 18.0.0 but In production I am using react 19.0.0, which is a bad practice,
+*SO RESOLVE IT*
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
