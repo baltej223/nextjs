@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20" style={{fontFamily:"monospace"}}>
+    <div className="grid bg-black grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20" style={{fontFamily:"monospace"}}>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         {/* <Image src='vercel.svg' width={10} height={10} alt="Vercel Logo" /> */}
         <h1 className="text-4xl">Cooking Something</h1>
